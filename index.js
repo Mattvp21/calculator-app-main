@@ -1,3 +1,5 @@
+//Calculator
+
 const calculatorDisplay = document.querySelector('.calculator-display');
 const inputBtn = document.querySelectorAll('button');
 const deleteBtn = document.getElementById('delete-button')
@@ -48,10 +50,6 @@ else {
    operatorValue = operator
 } 
 
-function deleteNumber() {
-
-}
-
 function useDecimal() {
     if(awaitingNextValue) return;
     if(calculatorDisplay.textContent.includes('.')) {
@@ -85,9 +83,7 @@ inputBtn.forEach(button => {
     }
 })
 
-    deleteBtn.addEventListener('click', deleteNumber)
-
-
+deleteBtn.addEventListener('click', deleteNumber)
 resetBtn.addEventListener('click',resetAll)
 
 // Theme 
