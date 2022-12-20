@@ -379,18 +379,3 @@ button {
     
 }
 
-@media (max-width: 400px) {
-    .calculator {
-        width: 18rem;
-    }
-
-    .equal {
-        transform: translate(4.0rem);
-    }
-
-    button {
-        height: 2rem;
-        width: 2.5rem;
-    }
-    
-}
