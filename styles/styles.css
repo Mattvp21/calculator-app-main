@@ -268,8 +268,8 @@ h1 {
 }
 
 button {
-    min-height: 3rem;
-    min-width: 3.5rem;
+    height: 4.5rem;
+    width: 6rem;
     font-size: 32px;
     font-family: inherit;
     font-weight: 700;
@@ -319,7 +319,7 @@ button {
 }
 
 #reset-btn {
-    min-width: 220%;
+    width: 220%;
     color: var(--white);
     font-size: 20px;
     background-color: var(--desaturatedDarkBlueBackground);
@@ -341,7 +341,7 @@ button {
 }
 
 .equal {
-    min-width: 220%;
+    width: 220%;
     transform: translate(6.75rem);
     color: var(--white);
     font-size: 20px;
@@ -371,6 +371,11 @@ button {
     .equal {
         transform: translate(5.5rem);
     }
+
+    button {
+        height: 4rem;
+        width: 4.5rem;
+    }
     
 }
 
@@ -384,8 +389,8 @@ button {
     }
 
     button {
-        min-height: 2rem;
-        min-width: 2.5rem;
+        height: 2rem;
+        width: 2.5rem;
     }
     
 }
