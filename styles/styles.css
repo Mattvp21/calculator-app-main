@@ -373,3 +373,19 @@ button {
     }
     
 }
+
+@media (max-width: 400px) {
+    .calculator {
+        width: 18rem;
+    }
+
+    .equal {
+        transform: translate(4.0rem);
+    }
+
+    button {
+        min-height: 2rem;
+        min-width: 2.5rem;
+    }
+    
+}
